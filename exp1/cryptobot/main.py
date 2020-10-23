@@ -1,9 +1,9 @@
 from tokens import cmc_token
 
-import requests,json,re
+import requests,json,re,os
 from flask import Flask,request,Response
 
-token = '1275189278:AAGwCfFlvuGL6MS6NPPy2Le7SCPrV_oav6I'
+token = os.getenv('cmc_botoken')
 app = Flask(__name__)
 
 
