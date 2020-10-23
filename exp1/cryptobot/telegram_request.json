@@ -1,0 +1,21 @@
+{
+    "update_id": 378376589,
+    "message": {
+        "message_id": 180,
+        "from": {
+            "id": 1342633095,
+            "is_bot": false,
+            "first_name": "Raghav",
+            "last_name": "Gade",
+            "language_code": "en"
+        },
+        "chat": {
+            "id": 1342633095,
+            "first_name": "Raghav",
+            "last_name": "Gade",
+            "type": "private"
+        },
+        "date": 1603461355,
+        "text": "hello"
+    }
+}

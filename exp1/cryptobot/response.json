@@ -1,0 +1,46 @@
+{
+    "status": {
+        "notice": null, 
+        "credit_count": 1, 
+        "timestamp": "2020-10-18T06:10:55.106Z", 
+        "error_message": null, 
+        "elapsed": 14, 
+        "error_code": 0
+    }, 
+    "data": {
+        "BTC": {
+            "is_fiat": 0, 
+            "last_updated": "2020-10-18T06:09:23.000Z", 
+            "platform": null, 
+            "name": "Bitcoin", 
+            "tags": [
+                "mineable", 
+                "pow", 
+                "sha-256", 
+                "store-of-value", 
+                "state-channels"
+            ], 
+            "quote": {
+                "USD": {
+                    "market_cap": 210927405860.78363, 
+                    "last_updated": "2020-10-18T06:09:23.000Z", 
+                    "percent_change_7d": 0.56144114, 
+                    "price": 11388.919112290714, 
+                    "percent_change_24h": 0.29707698, 
+                    "volume_24h": 19140567140.636093, 
+                    "percent_change_1h": 0.18481788
+                }
+            }, 
+            "symbol": "BTC", 
+            "is_active": 1, 
+            "slug": "bitcoin", 
+            "total_supply": 18520406, 
+            "num_market_pairs": 9583, 
+            "max_supply": 21000000, 
+            "circulating_supply": 18520406, 
+            "cmc_rank": 1, 
+            "date_added": "2013-04-28T00:00:00.000Z", 
+            "id": 1
+        }
+    }
+}
