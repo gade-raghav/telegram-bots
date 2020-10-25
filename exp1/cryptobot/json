@@ -1,0 +1,2 @@
+POST request
+curl --data "id=4&human_name=Rakesh&human_dob=2001-01-16&human_gender=male&category=friends" https://terrible-owl-56.loca.lt/api/create/

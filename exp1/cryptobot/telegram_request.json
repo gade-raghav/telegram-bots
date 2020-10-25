@@ -1,7 +1,7 @@
 {
-    "update_id": 378376592,
+    "update_id": 378376664,
     "message": {
-        "message_id": 186,
+        "message_id": 330,
         "from": {
             "id": 1342633095,
             "is_bot": false,
@@ -15,7 +15,14 @@
             "last_name": "Gade",
             "type": "private"
         },
-        "date": 1603471116,
-        "text": "exit"
+        "date": 1603610250,
+        "text": "/commands",
+        "entities": [
+            {
+                "offset": 0,
+                "length": 9,
+                "type": "bot_command"
+            }
+        ]
     }
 }
