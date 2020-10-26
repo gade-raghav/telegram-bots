@@ -15,7 +15,7 @@ def get_data(crypto):
     url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
 
     params = {'symbol': crypto, 'convert':'USD'}
-    headers = {'X-CMC_PRO_API_KEY': '8a6d2846-0ffb-4394-8afa-2190ab51980a'}
+    headers = {'X-CMC_PRO_API_KEY': cmc_token}
 
     req = requests.get(url,headers=headers,params=params).json()
     price = req['data'][crypto]['quote']['USD']['price']
