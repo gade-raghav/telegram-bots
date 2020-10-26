@@ -16,9 +16,10 @@ def write_json(data,filename='response.json'):
     with open(filename, 'w') as f:                                                                                                                                
         json.dump(data,f,indent=4, ensure_ascii=False)                                                                                                            
                                                                                                                                                                   
-                                                                                                                                                                  
-def get_data(symbol,data=''):                                                                                                                                     
-    urlc = 'http://9f7abd833b20.ngrok.io/api/create/'                                                                                                             
+                                                                                                                                                                 
+def get_data(symbol,data=''):
+    #Changes when api is exposed on different webserver. Add a local variable .bashrc to make stuff easier.  
+    urlc = 'http://9f7abd833b20.ngrok.io/api/create/'                                                                                                        
     url = 'http://9f7abd833b20.ngrok.io/api/all/'                                                                                                                 
                                                                                                                                                                   
     req = requests.get(url).json()                                                                                                                                
@@ -84,7 +85,7 @@ def parse_message(message):
         symbol = ''
     return chat_id,symbol
 def send_message(chat_id, text='bla-bla=bla'):
-    url = 'https://api.telegram.org/bot1288905413:AAEf4ujmvk6cMQ9YFX2P9Op5Ewn2plxFxH0/sendMessage'
+    url = f'https://api.telegram.org/bot{token}/sendMessage'
     payload  = { 'chat_id':chat_id, 'text': text}
     r = requests.post(url,json=payload)
     return r
